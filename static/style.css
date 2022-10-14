@@ -1,0 +1,179 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+  }
+
+  td,
+  th {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  html {
+    font-family: "Sans Serif";
+    background-color: #fdfdfa;
+    font-size: 1em;
+    color: #666;
+  }
+
+  h1 {
+    font-variant: small-caps;
+    color: #fe7050;
+  }
+
+  #home_links a {
+    display: block;
+    margin-bottom: 16pt;
+    font-size: 1em;
+    color: #fe7050;
+  }
+
+  #past_links a {
+    display: block;
+    font-size: 1em;
+    color: #fe7050;
+  }
+
+  #updated {
+    margin-top: 20pt;
+    font-size: 0.6em;
+    font-style: italic;
+    vertical-align: bottom;
+  }
+
+  a {
+    color: #fe7050;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  #shift_link {
+    margin-bottom: 20px;
+  }
+
+  shift {
+    display: inline-table;
+    margin: 0 2 10 0;
+    border-style: solid;
+    padding: 5pt;
+    width: 200px;
+  }
+
+  #c126 shift {
+    height: 325px;
+  }
+
+  shift_time {
+    display: block;
+    font-size: 1em;
+    font-variant: small-caps;
+    border-style: none none solid none;
+    margin-bottom: 10px;
+    background-color: #fdfdfa;
+    color: #666;
+  }
+
+  shift_loc {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  shift_date {
+    display: block;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-variant: small-caps;
+    background-color: #fdfdfa;
+    color: #666;
+  }
+
+  shift_pers {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+
+  pers_name {
+    display: block;
+  }
+
+  pers_netid {
+    display: block;
+    font-style: italic;
+    margin-left: 10px;
+  }
+
+  #info {
+    color: #666;
+    font-size: 1.2em;
+    display: block;
+    margin-top: 12pt;
+    width: 1000px;
+    margin-bottom: 20pt;
+  }
+
+  #info ul {
+    margin: 5pt;
+  }
+
+  #info li {
+    color: #666;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 10pt;
+  }
+
+  #info ul li a {
+    font-size: 1.2em;
+    color: #fe7050;
+  }
+
+  #info ul li b {
+    color: #fe7050;
+    font-weight: normal;
+  }
+
+  #txt {
+    color: #666;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10pt;
+    width: 800px;
+  }
+
+.last-updated-header {
+  /* style in italic */
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.made-with {
+  font-size: 0.5em;
+}
+
+/* Author lists as comma separated */
+
+.author-list {
+  display: inline;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.author-list li {
+  display: inline;
+}
+
+.author-list li:after {
+  content: ", ";
+}
+
+.author-list li:last-child:after {
+  content: ".";
+}

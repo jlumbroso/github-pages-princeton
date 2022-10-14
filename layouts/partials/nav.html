@@ -1,0 +1,14 @@
+<a href="{{ "/" | relURL }}">Home</a>
+{{ range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+{{ with .Site.GetPage "/blog" }}
+<a href="{{ "/blog" | relURL }}">Blog</a>
+{{ end }}
+<!-- Thanks to https://hongtaoh.com/en/2020/06/18/implement-edit-on-github/ -->
+<span>
+    {{ $.Scratch.Set "FilePath" .File.Path }} {{ with
+    .Site.Params.GithubEdit}}
+    <a href='{{ . }}{{ $.Scratch.Get "FilePath" }}'>📝</a>
+    {{ end }} 
+</span>
