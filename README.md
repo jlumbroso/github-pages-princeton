@@ -1,7 +1,7 @@
-# Hugo + GitHub Pages + GitHub Actions = ❤️
+\[_This repository was generated [from a Hugo GitHub Pages template](https://github.com/jlumbroso/hugo-github-bearblog-template), that allows you to [create your own website in 1-click, and host it for free, forever!](https://github.com/jlumbroso/hugo-github-bearblog-template/generate)_\]
 
-This repository is a self-contained template for how to deploy a
-Hugo static site, hosted on GitHub, and deployed to GitHub Pages hosting,
-using the continuous integration available through GitHub Actions.
+# GitHub Pages for Princeton University
+
+This repository contains the source code for the [Princeton University GitHub Pages Landing Page](https://github-pages.princeton.edu).
 
 
