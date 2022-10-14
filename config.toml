@@ -1,120 +1,52 @@
-baseURL = "https://jlumbroso.github.io/hugo-github-example"
-languageCode = "en-us"
-title = "Noteworthy"
-theme = "noteworthy"
+# Base URL used when generating links to your pages
+# Set to the URL for your site
+baseURL = "https://example.com"
+
+# The name of this wonderful theme ;-).
+theme = 'hugo-bearblog'
+
+# Basic metadata configuration for your blog.
+title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
+author = "Jane Doe"
+copyright = "Copyright © 2020, Jane Doe."
+languageCode = "en-US"
+
+# Generate a nice robots.txt for SEO
 enableRobotsTXT = true
-paginate = 4 # Set the number of posts to show before overflowing to the next page.
-summaryLength = 10 # Configure how long the post summary should be on the homepage.
 
-# Add your Google Analytics identifier: UA-XXXXXXXX-X
-googleAnalytics = "" 
-
-# Add your Disqus shortname here.
-disqusShortname = ""    
-
-[taxonomies]
-  tag = "tags"
-
-[author]
-	name = "jlumbroso"
-
-# Set to false to disallow raw HTML in markdown files
-[markup.goldmark.renderer]
-    unsafe = true
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
 
 [params]
-  # types of posts to be listed on the home page
-  mainSections = ["post"]
+  # The "description" of your website. This is used in the meta data of your generated html.
+  description = "Hugo + Bear = :heart:"
 
-  # Turn on LaTeX support
-	math = true
-	# Blog description at the top of the homepage. Supports markdown.
-	description = "Noteworthy is a minimalist Hugo theme, perfect for writers and bloggers."
+  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+  # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+  favicon = "images/favicon.png"
 
-    showReadMore = false
+  # These "images" are used for the structured data templates. This will show up, when
+  # services like Twitter or Slack want to generate a preview of a link to your site.
+  # See https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph.
+  images = ["images/share.png"]
 
-    # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
-    enableKofi = false
-    kofi = ""
+  # Another "title" :-). This one is used as the site_name on the Hugo's internal
+  # opengraph structured data template.
+  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+  title = "Hugo ʕ•ᴥ•ʔ Bear"
 
-	# Add links to your accounts. Remove the ones you don't want to include.
-	# Main
-	email = "#"
-    facebook = "#"
-    twitter = "#"
-	instagram = "#"
-	tumblr = "#"
-	reddit = "#"
-	pinterest = "#"
-	youtube = "#"
-    vimeo = "#"
-	weibo = "#"
-	vk = "#"
-	linkedin = "#"
+  # This theme will, by default, inject a made-with-line at the bottom of the page.
+  # You can turn it off, but we would really appreciate if you don’t :-).
+  # hideMadeWithLine = true
 
-	# Writing
-    medium = "#"
-	blogger = "#"
-	wordpress = "#"
-
-	# Creative & Visual
-    dribbble = "#"
-	behance = "#"
-	deviantart = "#"
-	flickr = "#"
-
-    # Audio & Music
-    soundcloud = "#"
-
-	# Programming
-    github = "#"
-	stackoverflow = "#"
-	gitlab = "#"
-	codepen = "#"
-
-    # Academic
-    googlescholar = "#"
-    impactstory = "#"
-    orcid = "#"  
-
-# Menu links along the sidebar navigation.
-[[menu.main]]
-	identifier = "about"
-	name = "About"
-	url = "about/"
-	weight = 1 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
-
-[[menu.main]]
-	identifier = "tags"
-	name = "Tags"
-	url = "tags/"
-	weight = 2
-
-[[menu.main]]
-	name = "Archives"
-	identifier = "archives"
-	url = "archives/"
-	weight = 3
-
-# Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = false
-    useSessionStorage = false
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+  # By default, this theme displays dates with a format like "02 Jan, 2006", but
+  # you can customize it by setting the `dateFormat` param in your site's config
+  # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
+  # for details. An example TOML config that uses [ISO
+  # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
+  # dateFormat = "2006-01-02"
