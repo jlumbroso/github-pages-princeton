@@ -1,6 +1,6 @@
-# Hosting Princeton University Website on GitHub Pages
+# Hosting a Princeton Website on GitHub Pages
 
-It is possible to host a website on GitHub Pages, but to have a Princeton University domain name, such as this website, hosted from the repository (`jlumbroso/github-pages-princeton`)[https://github.com/jlumbroso/github-pages-princeton/] and served on the domain name [`github-pages.princeton.edu`](https://github-pages.princeton.edu/).
+It is possible to host a website on GitHub Pages, but to have a Princeton University domain name, such as this website, hosted from the repository [`jlumbroso/github-pages-princeton`](https://github.com/jlumbroso/github-pages-princeton/) and served on the domain name [`github-pages.princeton.edu`](https://github-pages.princeton.edu/).
 
 - You will need to request [an alias be created in the DNS through the ServiceNow form](https://princeton.service-now.com/service?id=sc_cat_item&sys_id=db24940a4ff92e0018ddd48e5210c750).
 
