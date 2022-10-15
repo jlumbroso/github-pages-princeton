@@ -1,3 +1,16 @@
+# Hosting Princeton University Website on GitHub Pages
+
+It is possible to host a website on GitHub Pages, but to have a Princeton University domain name, such as this website, hosted from the repository (`jlumbroso/github-pages-princeton`)[https://github.com/jlumbroso/github-pages-princeton/] and served on the domain name [`github-pages.princeton.edu`](https://github-pages.princeton.edu/).
+
+- You will need to request [an alias be created in the DNS through the ServiceNow form](https://princeton.service-now.com/service?id=sc_cat_item&sys_id=db24940a4ff92e0018ddd48e5210c750).
+
+  - In this form, select the option "_DNS Alias a cloud-hosted site (show mysite.com as if it is mysite.princeton.edu)_";
+  - In this form, for "_Cloud URL being aliased (destination)_", enter the URL of the GitHub Pages relay URL which is `github-pages.princeton.edu`.
+
+- It may take about a week for this domain name to be created for you.
+
+- Once it is created, you can follow [GitHub's instruction to setup a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
 # A match made in heaven
 
 There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.

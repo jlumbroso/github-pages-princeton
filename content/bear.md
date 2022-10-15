@@ -1,5 +1,5 @@
 +++
-title = "Bear"
+title = "Learn about BearBlog"
 menu = "main"
 +++
 
