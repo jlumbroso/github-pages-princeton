@@ -1,4 +1,12 @@
-# Hosting a Princeton Website on GitHub Pages
+Quite simply, **GitHub** and **GitHub Pages**, combined with a **static site generator** are one of the most cost-efficient (free), reliable, time-tested, and secure ways to host a website.
+
+It is possible to host such website and have a Princeton University custom domain. This page provides instruction on how to do that.
+
+- **GitHub is a free website for the long-term storage of certain files.** GitHub is a website that developers uses to store source code, because it tracks every single change made to the files, and is very reliable. GitHub has continuously hosted many projects for over a decade for free.
+
+- **GitHub Pages allows you to host a website for free.** GitHub Pages is a feature of GitHub that allows you to host a website for free, using the files stored in your GitHub repository. You can use GitHub Pages to host a website for your project, or even a personal website.
+
+## HOWTO: GitHub Pages from `xxxxxx.princeton.edu`
 
 It is possible to host a website on GitHub Pages, but to have a Princeton University domain name, such as this website, hosted from the repository [`jlumbroso/github-pages-princeton`](https://github.com/jlumbroso/github-pages-princeton/) and served on the domain name [`github-pages.princeton.edu`](https://github-pages.princeton.edu/).
 
@@ -11,24 +19,20 @@ It is possible to host a website on GitHub Pages, but to have a Princeton Univer
 
 - Once it is created, you can follow [GitHub's instruction to setup a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
-# A match made in heaven
+**Examples of websites:**
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
+- This [GitHub Pages at Princeton University](https://github-pages.princeton.edu) information page
+- [Mark Braverman's professional page](https://mbraverm.princeton.edu/)
+- The page of the course [COS 513/SML 513 — Foundations of Probabilistic Modeling](https://cos513.princeton.edu/) taught by Adji Bousso-Dieng
 
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
+## HOWTO: GitHub Pages from `xxxxxx.cs.princeton.edu`
 
-[Go to the original bear blog](https://bearblog.dev/).
+The subdomain `*.cs.princeton.edu` is managed not by OIT, but by CS staff, the local IT staff for the Department of Computer Science.
 
----
+- Contact CS staff at [csstaff@cs.princeton.edu](mailto:csstaff@cs.princeton.edu) to request a subdomain be created for you (by aliasing from that domain to `github-pages.cs.princeton.edu`).
 
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
+- Follow the same instructions as above to setup a custom domain on your GitHub Pages website.
 
-**Use this theme, and find out!**
+**Examples of websites:**
 
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
-
----
-
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
-
-Each page is ~5kb, and you can **host your blog yourself**.
+- The Department of Computer Science's [Introductory Lab's website](http://introlab.cs.princeton.edu/)
