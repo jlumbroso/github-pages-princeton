@@ -6,6 +6,8 @@ It is possible to host such website and have a Princeton University custom domai
 
 - **GitHub Pages allows you to host a website for free.** GitHub Pages is a feature of GitHub that allows you to host a website for free, using the files stored in your GitHub repository. You can use GitHub Pages to host a website for your project, or even a personal website.
 
+➡️ **To get started in 5 minutes, (1) [register a GitHub account](https://github.com/signup), then (2) [click here to create a free website](https://github.com/jlumbroso/hugo-github-bearblog-template/generate); once it is configured, follow the instructions below to configure your Princeton University custom domain.** ⬅️
+
 For more information reach out to [Jérémie Lumbroso](https://www.cs.princeton.edu/people/profile/lumbroso).
 
 ## HOWTO: GitHub Pages from `xxxxxx.princeton.edu`
