@@ -6,6 +6,8 @@ It is possible to host such website and have a Princeton University custom domai
 
 - **GitHub Pages allows you to host a website for free.** GitHub Pages is a feature of GitHub that allows you to host a website for free, using the files stored in your GitHub repository. You can use GitHub Pages to host a website for your project, or even a personal website.
 
+For more information reach out to [Jérémie Lumbroso](https://www.cs.princeton.edu/people/profile/lumbroso).
+
 ## HOWTO: GitHub Pages from `xxxxxx.princeton.edu`
 
 It is possible to host a website on GitHub Pages, but to have a Princeton University domain name, such as this website, hosted from the repository [`jlumbroso/github-pages-princeton`](https://github.com/jlumbroso/github-pages-princeton/) and served on the domain name [`github-pages.princeton.edu`](https://github-pages.princeton.edu/).
@@ -21,18 +23,19 @@ It is possible to host a website on GitHub Pages, but to have a Princeton Univer
 
 **Examples of websites:**
 
-- This [GitHub Pages at Princeton University](https://github-pages.princeton.edu) information page
-- [Mark Braverman's professional page](https://mbraverm.princeton.edu/)
-- The page of the course [COS 513/SML 513 — Foundations of Probabilistic Modeling](https://cos513.princeton.edu/) taught by Adji Bousso-Dieng
+- [`github-pages.princeton.edu`](https://github-pages.princeton.edu): This GitHub Pages at Princeton University information page
+- [`mbraverm.princeton.edu`](https://mbraverm.princeton.edu/): Mark Braverman's professional page
+- [`cos513.princeton.edu`](https://cos513.princeton.edu/): The page of the course _COS 513/SML 513 — Foundations of Probabilistic Modeling_ taught by Adji Bousso-Dieng
 
 ## HOWTO: GitHub Pages from `xxxxxx.cs.princeton.edu`
 
 The subdomain `*.cs.princeton.edu` is managed not by OIT, but by CS staff, the local IT staff for the Department of Computer Science.
 
-- Contact CS staff at [csstaff@cs.princeton.edu](mailto:csstaff@cs.princeton.edu) to request a subdomain be created for you (by aliasing from that domain to `github-pages.cs.princeton.edu`).
+- Contact CS staff at [csstaff@cs.princeton.edu](mailto:csstaff@cs.princeton.edu) to request a subdomain be created for you (by aliasing from that `xxxxxx.cs.princeton.edu` domain to `github-pages.princeton.edu`).
 
 - Follow the same instructions as above to setup a custom domain on your GitHub Pages website.
 
 **Examples of websites:**
 
-- The Department of Computer Science's [Introductory Lab's website](http://introlab.cs.princeton.edu/)
+- [`introlab.cs.princeton.edu`](http://introlab.cs.princeton.edu/): The Department of Computer Science's undergraduate-staffed Introductory Lab's website
+- [`competitive-programming.cs.princeton.edu`](https://competitive-programming.cs.princeton.edu/): Princeton University's Competitive Programming website run by [Pedro Paredes](https://www.cs.princeton.edu/~paredes/)
