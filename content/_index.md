@@ -31,9 +31,9 @@ It is possible to host a website on GitHub Pages, but to have a Princeton Univer
 
 ## HOWTO: GitHub Pages from `xxxxxx.cs.princeton.edu`
 
-The subdomain `*.cs.princeton.edu` is managed not by OIT, but by CS staff, the local IT staff for the Department of Computer Science.
+The subdomain `cs.princeton.edu` is managed not by OIT, but by CS staff, the local IT staff for the Department of Computer Science.
 
-- Contact CS staff at [csstaff@cs.princeton.edu](mailto:csstaff@cs.princeton.edu) to request a subdomain be created for you (by aliasing from that `xxxxxx.cs.princeton.edu` domain to `github-pages.princeton.edu`).
+- Contact CS staff at [csstaff@cs.princeton.edu](mailto:csstaff@cs.princeton.edu) to request a CNAME entry be created for you aliasing from that `xxxxxx.cs.princeton.edu` domain to `github-pages.princeton.edu`.
 
 - Follow the same instructions as above to setup a custom domain on your GitHub Pages website.
 
