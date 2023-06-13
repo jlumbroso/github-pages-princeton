@@ -17,7 +17,7 @@ It is possible to host a website on GitHub Pages, but to have a Princeton Univer
 - You will need to request [an alias be created in the DNS through the ServiceNow form](https://princeton.service-now.com/service?id=sc_cat_item&sys_id=db24940a4ff92e0018ddd48e5210c750).
 
   - In this form, select the option "_DNS Alias a cloud-hosted site (show mysite.com as if it is mysite.princeton.edu)_";
-  - In this form, for "_Cloud URL being aliased (destination)_", enter the URL of the GitHub Pages relay URL which is `github-pages.princeton.edu`.
+  - In this form, for "_Cloud URL being aliased (destination)_", enter the URL of the GitHub Pages relay URL which is `github-pages.princeton.edu` (the relay is the OIT-approved way to express the website is a GitHub Pages website, and helps avoid having to enter and maintain IP addresses).
 
 - It may take about a week for this domain name to be created for you.
 
